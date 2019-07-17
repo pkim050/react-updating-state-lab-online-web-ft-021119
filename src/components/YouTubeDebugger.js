@@ -28,7 +28,7 @@ export default class YouTubeDebugger extends React.Component {
   handleResolutionClick = () => {
     this.setState({
       video: {
-        ...this.state.video,
+        ...this.state.settings.video,
         resolution: '720p'
       }
     })
